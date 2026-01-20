@@ -6,7 +6,7 @@ A simple, **100% offline**, GPU-accelerated image captioning tool built for Wind
 
 Perfect for quickly generating high-quality captions for large image datasets — especially useful for preparing training data for LoRA, DreamBooth, fine-tuning Stable Diffusion / Flux models, or any other image-to-text task where you want full privacy and no cloud dependency.
 
-![Tool Interface](screenshot.png)
+![Tool Interface](Screenshot.png)
 
 ### Features
 - Uses **Salesforce/blip-image-captioning-large** — reliable, natural-sounding captions
