@@ -47,7 +47,7 @@ First run: creates virtual environment + downloads ~1.5 GB of model/weights (tak
 Subsequent runs: starts in seconds
 
 In the browser window that opens:
-Paste your images folder path (e.g. C:\Users\Hunter\Pictures\my_dataset)
+Paste your images folder path (e.g. C:\Users\Pictures\my_dataset)
 (Optional) Enter a trigger word (e.g. my_style, tok)
 Choose where to place the trigger (Start / End / None)
 Click Process All Images
