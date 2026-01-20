@@ -37,7 +37,7 @@ This one is:
 1. **Clone or download** this repository
 
    ```bash
-   git clone https://github.com/yourusername/local-image-captioner-blip.git
+   git clone https://github.com/Plasmaphantom/local-image-captioner-blip.git
    cd local-image-captioner-blip
 
    Or just download ZIP and extract.
