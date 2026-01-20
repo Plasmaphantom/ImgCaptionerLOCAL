@@ -39,9 +39,9 @@ This one is:
 1. **Clone or download** this repository
 
    ```bash
-git clone https://github.com/Plasmaphantom/ImgCaptionerLOCAL.git
-cd ImgCaptionerLOCAL
-start_captioner.bat
+   git clone https://github.com/Plasmaphantom/ImgCaptionerLOCAL.git
+   cd ImgCaptionerLOCAL
+   start_captioner.bat
 
    Or just download ZIP and extract.
 
