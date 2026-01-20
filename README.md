@@ -39,3 +39,41 @@ This one is:
    ```bash
    git clone https://github.com/yourusername/local-image-captioner-blip.git
    cd local-image-captioner-blip
+
+   Or just download ZIP and extract.
+
+Double-click start_captioner.bat
+First run: creates virtual environment + downloads ~1.5 GB of model/weights (takes 3–10 min depending on internet)
+Subsequent runs: starts in seconds
+
+In the browser window that opens:
+Paste your images folder path (e.g. C:\Users\Hunter\Pictures\my_dataset)
+(Optional) Enter a trigger word (e.g. my_style, tok)
+Choose where to place the trigger (Start / End / None)
+Click Process All Images
+
+Results appear in the same folder as the .bat file:
+New subfolder: triggerword_output/
+ZIP file: triggerword_output.zip
+Each image gets a matching .txt file with the caption
+
+Example Output
+textimage001.jpg → "a beautiful sunset over the mountains my_style"
+image002.png → "my_style portrait of a woman smiling in a park"
+
+Troubleshooting
+
+Black window closes immediately? → Make sure Python is installed and added to PATH
+CUDA errors? → Confirm your GPU drivers are up to date (NVIDIA Game Ready or Studio drivers)
+Slow on CPU? → Normal if no CUDA — captions will still work, just slower
+Still stuck? Open an issue or paste the error from the command window.
+
+Want better captions?
+This version uses BLIP-large because it's stable and easy to install.
+This is my 2nd repository (I am still learning how this stuff works but wanted to contribute to anyone having trouble with captioning their datasets)
+
+Just let me know in issues/PRs.
+License
+MIT License — feel free to use, modify, share.
+Happy captioning! 🚀
+Made with love for the local AI community.
